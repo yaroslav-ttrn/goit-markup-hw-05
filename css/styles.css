@@ -588,8 +588,8 @@ h6 {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: fixed;
   top: 0;
   left: 0;
@@ -634,7 +634,8 @@ h6 {
   justify-content: center;
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-footer {
@@ -642,14 +643,15 @@ h6 {
 }
 
 .modal-close-button:hover {
-border: none;
-fill: #ffffff;
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
 }
 
 .modal-close-button:focus {
-border: none;
-background-color: #404bbf;
-fill: #ffffff;
+  border: none;
+  background-color: #404bbf;
+  fill: #ffffff;
 }
 
 .close-button-icon {
@@ -660,7 +662,6 @@ fill: #ffffff;
 .close-button-icon:focus {
   fill: #ffffff;
 } */
-
 
 .modal-subtitle {
   font-weight: 500;
@@ -715,12 +716,12 @@ fill: #ffffff;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
-  outline: transparent; 
+  outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text-area:focus {
-border-color: #4D5AE5; 
+  border-color: #4d5ae5;
 }
 
 .modal-text-area::placeholder {
@@ -777,19 +778,22 @@ border-color: #4D5AE5;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
   }
-  span {
-    height: 16px;
-    width: 16px;
-    height: 17px;
-    border-radius: 2px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-right: 8px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    fill: transparent;
-  }
+}
+
+.modal-checkbox {
+  height: 16px;
+  width: 16px;
+  height: 17px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .modal-check:checked + .modal-check-text span {
