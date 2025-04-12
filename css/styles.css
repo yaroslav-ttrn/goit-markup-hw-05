@@ -765,6 +765,10 @@ h6 {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-icon-style {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-check-text {
   font-size: 12px;
   line-height: 1.17;
@@ -784,7 +788,6 @@ h6 {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -793,6 +796,7 @@ h6 {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: inline-flex;
 }
 
 .modal-check:checked + .modal-check-text span {
@@ -804,10 +808,6 @@ h6 {
 .modal-checkbox:hover {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .modal-policy {
-  color: #4d5ae5;
-} */
 
 .modal-polisy-style {
   color: #4d5ae5;
