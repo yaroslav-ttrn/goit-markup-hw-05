@@ -658,11 +658,6 @@ h6 {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .close-button-icon:hover,
-.close-button-icon:focus {
-  fill: #ffffff;
-} */
-
 .modal-subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -732,10 +727,6 @@ h6 {
   color: rgba(46, 47, 66, 0.4);
 }
 
-/* .modal-icon.icon-person {
-  fill: #4d5ae5;
-} */
-
 .modal-field {
   margin-bottom: 8px;
 }
@@ -765,10 +756,6 @@ h6 {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-style {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-check-text {
   font-size: 12px;
   line-height: 1.17;
@@ -776,12 +763,13 @@ h6 {
   color: #8e8f99;
   display: flex;
   align-items: center;
-  a {
-    line-height: 1.33;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #4d5ae5;
-  }
+}
+
+.modal-check-text a {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 
 .modal-checkbox {
@@ -809,6 +797,6 @@ h6 {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-polisy-style {
+.modal-poliсy-style {
   color: #4d5ae5;
 }
