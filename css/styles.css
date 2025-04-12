@@ -787,7 +787,7 @@ h6 {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  /* display: inline-flex; */
+  display: inline-flex;
 }
 
 .modal-check:checked + .modal-check-text span {
