@@ -752,8 +752,12 @@ h6 {
   position: absolute;
   left: 16px;
   top: 50%;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(-50%);
+}
+
+.modal-checkbox-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 
 .modal-check-text {
@@ -783,7 +787,7 @@ h6 {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 
 .modal-check:checked + .modal-check-text span {
